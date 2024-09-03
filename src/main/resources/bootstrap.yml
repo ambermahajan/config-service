@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    vault:
+      uri: http://10.3.7.233:12345/
+      scheme: http
+      token: s.dRggPqxCAR2e0brcRTBcFlmn
+      kv:
+        backend: gitlab
+        default-context: token
+        application-name: token
+      enabled: true
+      connection-timeout: 10000
+      read-timeout: 15000
